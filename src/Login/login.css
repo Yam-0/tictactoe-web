@@ -1,0 +1,121 @@
+html,
+body {
+	background-color: var(--a-bg-color);
+}
+.Login-Screen {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: var(--a-bg-color);
+
+	font-family: Solway;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 124.88%;
+}
+.Form-Container {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.175);
+}
+.Form {
+	color: var(--c-bg-color);
+	background-color: var(--b-bg-color);
+	padding: 100px 100px 20px 100px;
+	display: flex;
+	flex-direction: column;
+}
+.Form div {
+	margin-top: 20px;
+}
+.Login-Header {
+	font-kerning: 0.8px;
+	font-size: 42px;
+	font-weight: 200;
+	margin-bottom: 30px;
+	font-family: Solway;
+	cursor: default;
+}
+.Input-Field {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	transition: linear 100ms;
+	background-color: var(--c-bg-color);
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.1);
+
+	font-family: Solway;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	font-kerning: 1.3px;
+}
+button:hover {
+	color: var(--c-bg-color);
+	transition: linear 100ms;
+	background-color: var(--d-bg-color);
+	box-shadow: none;
+}
+.Remember-Me-Container {
+	display: flex;
+	justify-content: start;
+	font-size: 14px;
+	cursor: default;
+}
+.Checkbox {
+	cursor: pointer;
+}
+.Other-Container {
+	background-color: var(--c-bg-color);
+	height: 75px;
+	padding: 10px 100px 10px 100px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Russo One;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: var(--b-bg-color);
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.1);
+}
+.Link-Signup {
+	color: var(--c-bg-color);
+	background-color: var(--b-bg-color);
+	padding: 10px;
+}
+.Link-Signup:hover {
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+	background-color: var(--c-bg-color);
+}
+.Link-Forgotpassword {
+	color: var(--d-bg-color);
+}
+.Bottom {
+	background-color: var(--b-bg-color);
+	height: 25px;
+}
+.Signup {
+	z-index: 2;
+	position: absolute;
+	display: unset;
+}
+.Login {
+	display: unset;
+}
+.Disabled {
+	display: none;
+}
